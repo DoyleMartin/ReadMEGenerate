@@ -69,7 +69,7 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 ## Questions
-${data.github} ${data.email}
+If you have any questions please direct them to me at my GitHub, https://github.com/${data.github} or my email, ${data.email}
 `;
 }
 
