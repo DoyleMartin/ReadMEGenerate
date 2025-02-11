@@ -3,8 +3,7 @@ import generateMarkdown from './utils/generateMarkdown.js';
 import inquirer from 'inquirer';
 import fs from 'fs';
 import path from 'path';
-import { type } from 'os';
-// import generateMarkdown from './utils/generateMarkdown';
+// import { type } from 'os';
 
 // TODO: Create an array of questions for user input
 const questions = [
