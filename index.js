@@ -3,7 +3,7 @@ import generateMarkdown from './utils/generateMarkdown.js';
 import inquirer from 'inquirer';
 import fs from 'fs';
 import path from 'path';
-// import { type } from 'os';
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -64,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log('Generating README...');        
-        writeToFile('./Test.readME/README.md', generateMarkdown({ ...responses }));
+        writeToFile('./README.md', generateMarkdown({ ...responses }));
     });
 }
 
